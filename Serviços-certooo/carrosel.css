@@ -1,0 +1,65 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fcfbff;
+  display: flex;
+  justify-content: center;
+}
+
+.carrosels
+{
+  width: 500px;
+  margin-top: 55px;
+  justify-content: center;
+  display: flex;
+  background: linear-gradient(245.59deg, #b0dbb2 0%,#ccded4  28.53%, #cfb9d8 75.52%);
+}
+
+
+main {
+  height: 100%;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+span {
+  font-size: x-large;
+  border-radius: 30px;
+}
+
+img {
+  border-radius: 30px;
+  width: 100%;
+}
+
+.swiper {
+  height: 360px;
+  border-radius: 30px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 30px;
+}
+
+
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
+}
