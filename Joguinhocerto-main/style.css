@@ -157,3 +157,42 @@ font-family: 'Lucida Sans Unicode', sans-serif;
 	}
 }
 
+@media (max-width:  1366px )
+{
+
+  #menu-icon{
+	margin-right: 84px;
+    display: block;
+	
+	
+}
+
+.navlist{
+	
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 200px;
+    height: 40vh;
+    background: #cfb9d8;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+	
+    transition:  all .55s ease;
+
+}
+
+.navlist a{
+  margin-left: 0;
+  display: block;
+  margin: 7px 0;
+}
+
+.navlist.open{
+  right: 20%;
+}
+
+ 
+
+}

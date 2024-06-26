@@ -1,3 +1,17 @@
+
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.navlist');
+
+menu.onclick = () => { 
+    menu.classList.toggle('bx-x');
+    navlist.classList.toggle('open');
+};
+
+
+
+
+
+
 let move_speed = 3, grativy = 0.5;
 let bird = document.querySelector('.bird');
 let img = document.getElementById('bird-1');
